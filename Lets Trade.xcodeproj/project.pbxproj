@@ -16,9 +16,16 @@
 		E33A445129636A1600AE7C5E /* myMiniIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33A445029636A1600AE7C5E /* myMiniIcon.swift */; };
 		E33A445529636A5600AE7C5E /* me.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E33A445429636A5600AE7C5E /* me.jpeg */; };
 		E396C657295C61BD007333CB /* Lets_TradeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E396C656295C61BD007333CB /* Lets_TradeApp.swift */; };
-		E396C659295C61BD007333CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E396C658295C61BD007333CB /* ContentView.swift */; };
+		E396C659295C61BD007333CB /* PageControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E396C658295C61BD007333CB /* PageControllerView.swift */; };
 		E396C65B295C61BD007333CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E396C65A295C61BD007333CB /* Assets.xcassets */; };
 		E396C65E295C61BD007333CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E396C65D295C61BD007333CB /* Preview Assets.xcassets */; };
+		E39F09292966DCB800B0AF91 /* profileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39F09282966DCB800B0AF91 /* profileView.swift */; };
+		E39F092B2966E5BB00B0AF91 /* postModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39F092A2966E5BB00B0AF91 /* postModel.swift */; };
+		E39F092D2966E6E400B0AF91 /* myPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39F092C2966E6E400B0AF91 /* myPostView.swift */; };
+		E39F093129676C6F00B0AF91 /* myFriendsListIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39F093029676C6F00B0AF91 /* myFriendsListIcon.swift */; };
+		E39F09332967711E00B0AF91 /* roomListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39F09322967711E00B0AF91 /* roomListView.swift */; };
+		E39F093529677AF100B0AF91 /* friendListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39F093429677AF100B0AF91 /* friendListView.swift */; };
+		E39F093729677B2600B0AF91 /* myFriendItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39F093629677B2600B0AF91 /* myFriendItem.swift */; };
 		E3A54A05296169C6002F4EDF /* loginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A54A04296169C6002F4EDF /* loginPage.swift */; };
 		E3A54A0729616F90002F4EDF /* mySecureFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A54A0629616F90002F4EDF /* mySecureFieldView.swift */; };
 		E3A54A0929617368002F4EDF /* registerPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A54A0829617368002F4EDF /* registerPage.swift */; };
@@ -35,9 +42,16 @@
 		E33A445429636A5600AE7C5E /* me.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = me.jpeg; sourceTree = "<group>"; };
 		E396C653295C61BD007333CB /* Lets Trade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lets Trade.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E396C656295C61BD007333CB /* Lets_TradeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lets_TradeApp.swift; sourceTree = "<group>"; };
-		E396C658295C61BD007333CB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E396C658295C61BD007333CB /* PageControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControllerView.swift; sourceTree = "<group>"; };
 		E396C65A295C61BD007333CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E396C65D295C61BD007333CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E39F09282966DCB800B0AF91 /* profileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileView.swift; sourceTree = "<group>"; };
+		E39F092A2966E5BB00B0AF91 /* postModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postModel.swift; sourceTree = "<group>"; };
+		E39F092C2966E6E400B0AF91 /* myPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myPostView.swift; sourceTree = "<group>"; };
+		E39F093029676C6F00B0AF91 /* myFriendsListIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myFriendsListIcon.swift; sourceTree = "<group>"; };
+		E39F09322967711E00B0AF91 /* roomListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roomListView.swift; sourceTree = "<group>"; };
+		E39F093429677AF100B0AF91 /* friendListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = friendListView.swift; sourceTree = "<group>"; };
+		E39F093629677B2600B0AF91 /* myFriendItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myFriendItem.swift; sourceTree = "<group>"; };
 		E3A54A04296169C6002F4EDF /* loginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginPage.swift; sourceTree = "<group>"; };
 		E3A54A0629616F90002F4EDF /* mySecureFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mySecureFieldView.swift; sourceTree = "<group>"; };
 		E3A54A0829617368002F4EDF /* registerPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registerPage.swift; sourceTree = "<group>"; };
@@ -62,6 +76,9 @@
 				E30C87B629604860009A18E6 /* myCurrencyTextView.swift */,
 				E30C87BB29605E27009A18E6 /* myButton.swift */,
 				E33A445029636A1600AE7C5E /* myMiniIcon.swift */,
+				E39F092C2966E6E400B0AF91 /* myPostView.swift */,
+				E39F093029676C6F00B0AF91 /* myFriendsListIcon.swift */,
+				E39F093629677B2600B0AF91 /* myFriendItem.swift */,
 			);
 			path = Atoms;
 			sourceTree = "<group>";
@@ -73,6 +90,9 @@
 				E30C87AE2960283C009A18E6 /* Atoms */,
 				E3A54A04296169C6002F4EDF /* loginPage.swift */,
 				E3A54A0829617368002F4EDF /* registerPage.swift */,
+				E39F09282966DCB800B0AF91 /* profileView.swift */,
+				E39F09322967711E00B0AF91 /* roomListView.swift */,
+				E39F093429677AF100B0AF91 /* friendListView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -137,10 +157,11 @@
 		E396C655295C61BD007333CB /* Lets Trade */ = {
 			isa = PBXGroup;
 			children = (
+				E39F09272966D9EA00B0AF91 /* Models */,
 				E33A444D2963612600AE7C5E /* Controllers */,
 				E30C87B12960294C009A18E6 /* View */,
 				E396C656295C61BD007333CB /* Lets_TradeApp.swift */,
-				E396C658295C61BD007333CB /* ContentView.swift */,
+				E396C658295C61BD007333CB /* PageControllerView.swift */,
 				E396C65A295C61BD007333CB /* Assets.xcassets */,
 				E30C87B229602959009A18E6 /* Resources */,
 				E396C65C295C61BD007333CB /* Preview Content */,
@@ -154,6 +175,14 @@
 				E396C65D295C61BD007333CB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E39F09272966D9EA00B0AF91 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E39F092A2966E5BB00B0AF91 /* postModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,17 +257,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3A54A05296169C6002F4EDF /* loginPage.swift in Sources */,
-				E396C659295C61BD007333CB /* ContentView.swift in Sources */,
+				E396C659295C61BD007333CB /* PageControllerView.swift in Sources */,
 				E30C87B429602DB8009A18E6 /* myColor.swift in Sources */,
 				E30C87BC29605E27009A18E6 /* myButton.swift in Sources */,
 				E30C87B729604860009A18E6 /* myCurrencyTextView.swift in Sources */,
 				E3A54A0929617368002F4EDF /* registerPage.swift in Sources */,
 				E3A54A0729616F90002F4EDF /* mySecureFieldView.swift in Sources */,
 				E33A444F2963613200AE7C5E /* PageController.swift in Sources */,
+				E39F093529677AF100B0AF91 /* friendListView.swift in Sources */,
+				E39F093129676C6F00B0AF91 /* myFriendsListIcon.swift in Sources */,
+				E39F093729677B2600B0AF91 /* myFriendItem.swift in Sources */,
+				E39F092D2966E6E400B0AF91 /* myPostView.swift in Sources */,
+				E39F09292966DCB800B0AF91 /* profileView.swift in Sources */,
+				E39F092B2966E5BB00B0AF91 /* postModel.swift in Sources */,
 				E30C87B029602854009A18E6 /* myPlainTextView.swift in Sources */,
 				E30C87BA296057A7009A18E6 /* Effects.swift in Sources */,
 				E396C657295C61BD007333CB /* Lets_TradeApp.swift in Sources */,
 				E33A445129636A1600AE7C5E /* myMiniIcon.swift in Sources */,
+				E39F09332967711E00B0AF91 /* roomListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,10 +9,10 @@ import Foundation
 import SwiftUI
 
 enum page_Type {
-    case regiser,login
+    case regiser,login,logged
 }
 
 
 class PageController : ObservableObject{
-    @Published var pageType : page_Type = .login
+    @Published var pageType : page_Type = .logged
 }

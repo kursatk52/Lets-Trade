@@ -9,22 +9,38 @@ import SwiftUI
 
 struct myMiniIcon: View {
     
-    @State var isToggle : Bool = true
+    @Binding var text : String
+    @Binding var isToggle : Bool
+    
+    var size : CGFloat = 80
     
     var body: some View {
         Effects.shared.dropShadow {
-            Image("me")
-                .resizable()
-                .frame(width: 80,height: 80)
-                .mask {
-                    Circle()
-                        .frame(width: 80,height: 80)
+            VStack {
+                Image("me")
+                    .resizable()
+                    .frame(width: size,height: size)
+                    .mask {
+                        Circle()
+                            .frame(width: size,height: size)
+                    }
+                    .overlay {
+                        Circle()
+                            .stroke(lineWidth: 3)
+                            .fill(isToggle ? myColor.myQuternaryColor.getColor : myColor.myTertiaryColor.getColor)
                 }
-                .overlay {
-                    Circle()
-                        .stroke(lineWidth: 3)
-                        .fill(isToggle ? myColor.myQuternaryColor.getColor : myColor.myTertiaryColor.getColor)
+                
+                if (!text.isEmpty){
+                    Text("\(text)")
+                        .foregroundColor(myColor.myQuternaryColor.getColor)
+                        .font(.body.bold())
+                        .frame(maxWidth: size + (size/3.0))
+                        .lineLimit(1)
                 }
+                
+            }
+            .padding(10)
+            .fixedSize(horizontal: true, vertical: false)
         }
             
     }
@@ -32,6 +48,6 @@ struct myMiniIcon: View {
 
 struct myMiniIcon_Previews: PreviewProvider {
     static var previews: some View {
-        myMiniIcon()
+        myMiniIcon(text: .constant(""),isToggle: .constant(true),size: 120)
     }
 }
