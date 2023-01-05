@@ -7,18 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E30C87B029602854009A18E6 /* myPlainTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30C87AF29602854009A18E6 /* myPlainTextView.swift */; };
+		E30C87B429602DB8009A18E6 /* myColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30C87B329602DB8009A18E6 /* myColor.swift */; };
+		E30C87B729604860009A18E6 /* myCurrencyTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30C87B629604860009A18E6 /* myCurrencyTextView.swift */; };
+		E30C87BA296057A7009A18E6 /* Effects.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30C87B9296057A7009A18E6 /* Effects.swift */; };
+		E30C87BC29605E27009A18E6 /* myButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30C87BB29605E27009A18E6 /* myButton.swift */; };
+		E33A444F2963613200AE7C5E /* PageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33A444E2963613200AE7C5E /* PageController.swift */; };
+		E33A445129636A1600AE7C5E /* myMiniIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33A445029636A1600AE7C5E /* myMiniIcon.swift */; };
+		E33A445529636A5600AE7C5E /* me.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E33A445429636A5600AE7C5E /* me.jpeg */; };
 		E396C657295C61BD007333CB /* Lets_TradeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E396C656295C61BD007333CB /* Lets_TradeApp.swift */; };
 		E396C659295C61BD007333CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E396C658295C61BD007333CB /* ContentView.swift */; };
 		E396C65B295C61BD007333CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E396C65A295C61BD007333CB /* Assets.xcassets */; };
 		E396C65E295C61BD007333CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E396C65D295C61BD007333CB /* Preview Assets.xcassets */; };
+		E3A54A05296169C6002F4EDF /* loginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A54A04296169C6002F4EDF /* loginPage.swift */; };
+		E3A54A0729616F90002F4EDF /* mySecureFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A54A0629616F90002F4EDF /* mySecureFieldView.swift */; };
+		E3A54A0929617368002F4EDF /* registerPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A54A0829617368002F4EDF /* registerPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E30C87AF29602854009A18E6 /* myPlainTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myPlainTextView.swift; sourceTree = "<group>"; };
+		E30C87B329602DB8009A18E6 /* myColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myColor.swift; sourceTree = "<group>"; };
+		E30C87B629604860009A18E6 /* myCurrencyTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myCurrencyTextView.swift; sourceTree = "<group>"; };
+		E30C87B9296057A7009A18E6 /* Effects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Effects.swift; sourceTree = "<group>"; };
+		E30C87BB29605E27009A18E6 /* myButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myButton.swift; sourceTree = "<group>"; };
+		E33A444E2963613200AE7C5E /* PageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageController.swift; sourceTree = "<group>"; };
+		E33A445029636A1600AE7C5E /* myMiniIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myMiniIcon.swift; sourceTree = "<group>"; };
+		E33A445429636A5600AE7C5E /* me.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = me.jpeg; sourceTree = "<group>"; };
 		E396C653295C61BD007333CB /* Lets Trade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lets Trade.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E396C656295C61BD007333CB /* Lets_TradeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lets_TradeApp.swift; sourceTree = "<group>"; };
 		E396C658295C61BD007333CB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E396C65A295C61BD007333CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E396C65D295C61BD007333CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E3A54A04296169C6002F4EDF /* loginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginPage.swift; sourceTree = "<group>"; };
+		E3A54A0629616F90002F4EDF /* mySecureFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mySecureFieldView.swift; sourceTree = "<group>"; };
+		E3A54A0829617368002F4EDF /* registerPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registerPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +54,70 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E30C87AE2960283C009A18E6 /* Atoms */ = {
+			isa = PBXGroup;
+			children = (
+				E30C87AF29602854009A18E6 /* myPlainTextView.swift */,
+				E3A54A0629616F90002F4EDF /* mySecureFieldView.swift */,
+				E30C87B629604860009A18E6 /* myCurrencyTextView.swift */,
+				E30C87BB29605E27009A18E6 /* myButton.swift */,
+				E33A445029636A1600AE7C5E /* myMiniIcon.swift */,
+			);
+			path = Atoms;
+			sourceTree = "<group>";
+		};
+		E30C87B12960294C009A18E6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E30C87B829605789009A18E6 /* Effects */,
+				E30C87AE2960283C009A18E6 /* Atoms */,
+				E3A54A04296169C6002F4EDF /* loginPage.swift */,
+				E3A54A0829617368002F4EDF /* registerPage.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E30C87B229602959009A18E6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E33A445329636A4700AE7C5E /* Images */,
+				E33A445229636A3700AE7C5E /* Color */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E30C87B829605789009A18E6 /* Effects */ = {
+			isa = PBXGroup;
+			children = (
+				E30C87B9296057A7009A18E6 /* Effects.swift */,
+			);
+			path = Effects;
+			sourceTree = "<group>";
+		};
+		E33A444D2963612600AE7C5E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E33A444E2963613200AE7C5E /* PageController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E33A445229636A3700AE7C5E /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				E30C87B329602DB8009A18E6 /* myColor.swift */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		E33A445329636A4700AE7C5E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E33A445429636A5600AE7C5E /* me.jpeg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		E396C64A295C61BD007333CB = {
 			isa = PBXGroup;
 			children = (
@@ -51,9 +137,12 @@
 		E396C655295C61BD007333CB /* Lets Trade */ = {
 			isa = PBXGroup;
 			children = (
+				E33A444D2963612600AE7C5E /* Controllers */,
+				E30C87B12960294C009A18E6 /* View */,
 				E396C656295C61BD007333CB /* Lets_TradeApp.swift */,
 				E396C658295C61BD007333CB /* ContentView.swift */,
 				E396C65A295C61BD007333CB /* Assets.xcassets */,
+				E30C87B229602959009A18E6 /* Resources */,
 				E396C65C295C61BD007333CB /* Preview Content */,
 			);
 			path = "Lets Trade";
@@ -125,6 +214,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E33A445529636A5600AE7C5E /* me.jpeg in Resources */,
 				E396C65E295C61BD007333CB /* Preview Assets.xcassets in Resources */,
 				E396C65B295C61BD007333CB /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +227,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3A54A05296169C6002F4EDF /* loginPage.swift in Sources */,
 				E396C659295C61BD007333CB /* ContentView.swift in Sources */,
+				E30C87B429602DB8009A18E6 /* myColor.swift in Sources */,
+				E30C87BC29605E27009A18E6 /* myButton.swift in Sources */,
+				E30C87B729604860009A18E6 /* myCurrencyTextView.swift in Sources */,
+				E3A54A0929617368002F4EDF /* registerPage.swift in Sources */,
+				E3A54A0729616F90002F4EDF /* mySecureFieldView.swift in Sources */,
+				E33A444F2963613200AE7C5E /* PageController.swift in Sources */,
+				E30C87B029602854009A18E6 /* myPlainTextView.swift in Sources */,
+				E30C87BA296057A7009A18E6 /* Effects.swift in Sources */,
 				E396C657295C61BD007333CB /* Lets_TradeApp.swift in Sources */,
+				E33A445129636A1600AE7C5E /* myMiniIcon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

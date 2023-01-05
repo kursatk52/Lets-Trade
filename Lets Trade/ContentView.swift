@@ -7,15 +7,28 @@
 
 import SwiftUI
 
+
 struct ContentView: View {
     
-    @State var username : String = ""
-    @State var password : String = ""
-    @State var isReady : Bool = true
+    @State var username : String = "asd"
+    @State var username2 : Double = 1.5
+    @StateObject var pageController = PageController()
+    
     var body: some View {
-        VStack{
-            Text("Vira Bismillah!")
-        }
+        
+        ZStack(alignment: .center){
+            myColor.myPrimaryColor.getColor.ignoresSafeArea()
+            
+            switch pageController.pageType {
+            case .regiser:
+                registerPage()
+                    .transition(.move(edge: .trailing).combined(with: .opacity))
+            case .login:
+                loginPage()
+                    .transition(.move(edge: .leading).combined(with: .opacity))
+            }
+            
+        }.environmentObject(pageController)
     }
 }
 
