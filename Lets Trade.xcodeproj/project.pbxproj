@@ -26,6 +26,8 @@
 		E39F09332967711E00B0AF91 /* roomListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39F09322967711E00B0AF91 /* roomListView.swift */; };
 		E39F093529677AF100B0AF91 /* friendListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39F093429677AF100B0AF91 /* friendListView.swift */; };
 		E39F093729677B2600B0AF91 /* myFriendItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39F093629677B2600B0AF91 /* myFriendItem.swift */; };
+		E39F0939296781D400B0AF91 /* messagingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39F0938296781D400B0AF91 /* messagingView.swift */; };
+		E39F093B2967880300B0AF91 /* myMessageItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39F093A2967880300B0AF91 /* myMessageItem.swift */; };
 		E3A54A05296169C6002F4EDF /* loginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A54A04296169C6002F4EDF /* loginPage.swift */; };
 		E3A54A0729616F90002F4EDF /* mySecureFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A54A0629616F90002F4EDF /* mySecureFieldView.swift */; };
 		E3A54A0929617368002F4EDF /* registerPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A54A0829617368002F4EDF /* registerPage.swift */; };
@@ -52,6 +54,8 @@
 		E39F09322967711E00B0AF91 /* roomListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roomListView.swift; sourceTree = "<group>"; };
 		E39F093429677AF100B0AF91 /* friendListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = friendListView.swift; sourceTree = "<group>"; };
 		E39F093629677B2600B0AF91 /* myFriendItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myFriendItem.swift; sourceTree = "<group>"; };
+		E39F0938296781D400B0AF91 /* messagingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = messagingView.swift; sourceTree = "<group>"; };
+		E39F093A2967880300B0AF91 /* myMessageItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myMessageItem.swift; sourceTree = "<group>"; };
 		E3A54A04296169C6002F4EDF /* loginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginPage.swift; sourceTree = "<group>"; };
 		E3A54A0629616F90002F4EDF /* mySecureFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mySecureFieldView.swift; sourceTree = "<group>"; };
 		E3A54A0829617368002F4EDF /* registerPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registerPage.swift; sourceTree = "<group>"; };
@@ -79,6 +83,7 @@
 				E39F092C2966E6E400B0AF91 /* myPostView.swift */,
 				E39F093029676C6F00B0AF91 /* myFriendsListIcon.swift */,
 				E39F093629677B2600B0AF91 /* myFriendItem.swift */,
+				E39F093A2967880300B0AF91 /* myMessageItem.swift */,
 			);
 			path = Atoms;
 			sourceTree = "<group>";
@@ -93,6 +98,7 @@
 				E39F09282966DCB800B0AF91 /* profileView.swift */,
 				E39F09322967711E00B0AF91 /* roomListView.swift */,
 				E39F093429677AF100B0AF91 /* friendListView.swift */,
+				E39F0938296781D400B0AF91 /* messagingView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -263,6 +269,7 @@
 				E30C87B729604860009A18E6 /* myCurrencyTextView.swift in Sources */,
 				E3A54A0929617368002F4EDF /* registerPage.swift in Sources */,
 				E3A54A0729616F90002F4EDF /* mySecureFieldView.swift in Sources */,
+				E39F0939296781D400B0AF91 /* messagingView.swift in Sources */,
 				E33A444F2963613200AE7C5E /* PageController.swift in Sources */,
 				E39F093529677AF100B0AF91 /* friendListView.swift in Sources */,
 				E39F093129676C6F00B0AF91 /* myFriendsListIcon.swift in Sources */,
@@ -273,6 +280,7 @@
 				E30C87B029602854009A18E6 /* myPlainTextView.swift in Sources */,
 				E30C87BA296057A7009A18E6 /* Effects.swift in Sources */,
 				E396C657295C61BD007333CB /* Lets_TradeApp.swift in Sources */,
+				E39F093B2967880300B0AF91 /* myMessageItem.swift in Sources */,
 				E33A445129636A1600AE7C5E /* myMiniIcon.swift in Sources */,
 				E39F09332967711E00B0AF91 /* roomListView.swift in Sources */,
 			);

@@ -10,30 +10,38 @@ import SwiftUI
 struct friendListView: View {
     init(){
         UINavigationBar.appearance().titleTextAttributes = [.foregroundColor : UIColor(myColor.myTertiaryColor.getColor)]
+        
     }
     
     var body: some View {
-        ZStack{
-            myColor.myPrimaryColor.getColor
-                .ignoresSafeArea()
-                
-                ScrollView(.vertical, showsIndicators: false, content: {
-                    VStack (spacing: 15){
-                        myFriendItem()
-                        myFriendItem()
-                        myFriendItem()
-                        myFriendItem()
-                        myFriendItem()
-                        myFriendItem()
-                        myFriendItem()
-                        myFriendItem()
-                        myFriendItem()
-                    }
-                })
-                .padding()
-                .navigationTitle("Friend List")
-                
-        }
+            ZStack{
+                myColor.myPrimaryColor.getColor
+                    .ignoresSafeArea()
+                    
+                    ScrollView(.vertical, showsIndicators: false, content: {
+                        VStack (spacing: 15){
+                            NavigationLink(destination: {
+                                messagingView()
+                            }, label: {
+                                myFriendItem()
+                            })
+                            .buttonStyle(PlainButtonStyle())
+                            
+                            myFriendItem()
+                            myFriendItem()
+                            myFriendItem()
+                            myFriendItem()
+                            myFriendItem()
+                            myFriendItem()
+                            myFriendItem()
+                            myFriendItem()
+                        }
+                    })
+                    .padding()
+                    .navigationTitle("Friend List")
+                    
+            }
+        
     }
 }
 
