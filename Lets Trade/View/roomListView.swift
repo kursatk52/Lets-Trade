@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct roomListView: View {
+    
+    @State var showDetailPost = false
+    @State private var selectedPost : PostModel = PostModel(id: "2", product_type: "Laptop", amount: 17500, description: "Güzeldir PC")
     var body: some View {
         NavigationView {
             ZStack{
@@ -43,11 +46,25 @@ struct roomListView: View {
                     ScrollView(.vertical,showsIndicators: false) {
                         VStack(spacing: 20){
                             myPostView(postModel: PostModel.examples[0],isMenuShow: false)
+                                .onTapGesture {
+                                    selectedPost = PostModel.examples[0]
+                                    showDetailPost.toggle()
+                                }
                             myPostView(postModel: PostModel.examples[0],isMenuShow: false)
+                                .onTapGesture {
+                                    showDetailPost.toggle()
+                                }
                             myPostView(postModel: PostModel.examples[0],isMenuShow: false)
                             myPostView(postModel: PostModel.examples[0],isMenuShow: false)
                         }
                         .padding(2)
+                        .sheet(isPresented: $showDetailPost) {
+                            PostDetailView(selectedPost: $selectedPost)
+                            Spacer()
+                            myButton(text: "Contract with Seller", width: 100, height: 30) {
+                                print("Contact button clicked!")
+                            }
+                        }
                     }
                     .padding()
                     
@@ -56,6 +73,17 @@ struct roomListView: View {
                 }
             }
         }
+    }
+}
+
+
+
+struct PostDetailView : View{
+    
+    @Binding var selectedPost : PostModel
+    
+    var body : some View{
+        myPostView(postModel: selectedPost)
     }
 }
 
